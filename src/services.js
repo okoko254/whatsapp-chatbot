@@ -12,7 +12,7 @@ const sendMessage = async (to, message) => {
           body: message,
         },
       },
-      {
+      {            
         headers: {
           'Content-Type': 'application/json',
           Authorization: `Bearer ${config.apiKey}`,
